@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dip"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="单选组" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="20dip">
+
+        <CheckBox
+            android:id="@+id/radio1"
+            style="@style/select_style"
+            android:tag="rd1"
+            android:text="单选1" />
+
+        <CheckBox
+            android:id="@+id/radio2"
+            style="@style/select_style"
+            android:tag="rd2"
+            android:text="单选2" />
+
+        <CheckBox
+            android:id="@+id/radio3"
+            style="@style/select_style"
+            android:tag="rd3"
+            android:text="单选3" />
+
+        <CheckBox
+            android:id="@+id/radio4"
+            style="@style/select_style"
+            android:tag="rd4"
+            android:text="单选4" />
+
+        <CheckBox
+            android:id="@+id/radio5"
+            style="@style/select_style"
+            android:tag="rd5"
+            android:text="单选5" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="10dip">
+
+        <CheckBox
+            android:id="@+id/radio6"
+            style="@style/select_style"
+            android:tag="rd6"
+            android:text="单选6" />
+
+        <CheckBox
+            android:id="@+id/radio7"
+            style="@style/select_style"
+            android:tag="rd7"
+            android:text="单选7" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginBottom="20dip"
+        android:layout_marginTop="20dip"
+        android:background="@color/line_gray" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="复选组" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="20dip">
+
+        <CheckBox
+            android:id="@+id/checkbox1"
+            style="@style/select_style"
+            android:tag="chb1"
+            android:text="复选1" />
+
+        <CheckBox
+            android:id="@+id/checkbox2"
+            style="@style/select_style"
+            android:tag="chb2"
+            android:text="复选2" />
+
+        <CheckBox
+            android:id="@+id/checkbox3"
+            style="@style/select_style"
+            android:tag="chb3"
+            android:text="复选3" />
+
+        <CheckBox
+            android:id="@+id/checkbox4"
+            style="@style/select_style"
+            android:tag="chb4"
+            android:text="复选4" />
+
+        <CheckBox
+            android:id="@+id/checkbox5"
+            style="@style/select_style"
+            android:tag="chb5"
+            android:text="复选5" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="10dip">
+
+        <CheckBox
+            android:id="@+id/checkbox6"
+            style="@style/select_style"
+            android:tag="chb6"
+            android:text="复选6" />
+
+        <CheckBox
+            android:id="@+id/checkbox7"
+            style="@style/select_style"
+            android:tag="chb7"
+            android:text="复选7" />
+
+    </LinearLayout>
+
+</LinearLayout>
