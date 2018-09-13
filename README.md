@@ -1,4 +1,4 @@
-# Android实现自由单选、复选按钮效果+样式美化
+# SelectCustom
 
 ![platform](https://img.shields.io/badge/platform-Android-lightgrey.svg)
 ![Gradle](https://img.shields.io/badge/Gradle-3.1.2-brightgreen.svg)
@@ -8,7 +8,7 @@
 ![repo size](https://img.shields.io/github/repo-size/ahuyangdong/SelectCustom.svg)
 [![Licence](https://img.shields.io/github/license/ahuyangdong/SelectCustom.svg)](https://github.com/ahuyangdong/SelectCustom/blob/master/LICENSE)
 
-用CheckBox+LinearLayout来实现一种多行单选按钮组的效果，演示效果：
+Android实现自由单选、复选按钮效果+样式美化，用CheckBox+LinearLayout来实现一种多行单选按钮组的效果，演示效果：
 
 ![image](https://github.com/ahuyangdong/SelectCustom/raw/master/images/demo.gif)
 ## 功能
@@ -19,10 +19,10 @@
 
 ## 封装的方法
 获取单项按钮组的值
-> com.dommy.selectcustom.util.CommonUtil.getOne
+> com.dommy.selectcustom.util.CommonUtil.getOne()
 
 获取多选按钮组的值
-> com.dommy.selectcustom.util.CommonUtil.getMany
+> com.dommy.selectcustom.util.CommonUtil.getMany()
 
 选中某个单选按钮
 > com.dommy.selectcustom.util.CommonUtil.checkOne()
