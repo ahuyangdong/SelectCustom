@@ -149,4 +149,60 @@
 
     </LinearLayout>
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginBottom="20dip"
+        android:layout_marginTop="20dip"
+        android:background="@color/line_gray" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="自适应单选显示" />
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="20dip"
+        app:flexWrap="wrap">
+
+        <CheckBox
+            android:id="@+id/flex1"
+            style="@style/select_flex_style"
+            android:tag="f1"
+            android:text="这个挺长的，不知道在哪" />
+
+        <CheckBox
+            android:id="@+id/flex2"
+            style="@style/select_flex_style"
+            android:tag="f2"
+            android:text="这个也不短" />
+
+        <CheckBox
+            android:id="@+id/flex3"
+            style="@style/select_flex_style"
+            android:tag="f3"
+            android:text="这个可能换行了" />
+
+        <CheckBox
+            android:id="@+id/flex4"
+            style="@style/select_flex_style"
+            android:tag="f4"
+            android:text="其他不重要的" />
+
+        <CheckBox
+            android:id="@+id/flex5"
+            style="@style/select_flex_style"
+            android:tag="f5"
+            android:text="其他不重要的" />
+
+        <CheckBox
+            android:id="@+id/flex6"
+            style="@style/select_flex_style"
+            android:tag="f6"
+            android:text="这个在第几行就不清楚了" />
+
+    </com.google.android.flexbox.FlexboxLayout>
 </LinearLayout>
